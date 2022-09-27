@@ -1,0 +1,187 @@
+html{
+    font-family: poppins;
+    color: #333;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+header{
+    min-height: 100vh;
+    background:linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)) 
+    ,
+    url(../images/espresso-coffee-cup-coffee-beans_79603-1038.jpg);
+
+    background-position:center ;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav{
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+}
+.main-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.hero{
+    position: absolute;
+    top: 200px;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+.btn{
+    border: solid 1px rgb(209, 129, 64);
+    margin-right: 15px;
+    padding: 8px 20px ;
+    border-radius: 10px 50px 10px 50px;
+    color: rgb(209, 129, 64);
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+    background-color: orange;
+}
+
+section{
+    padding: 40px 0px ;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    margin-bottom: 30px; 
+}
+
+hr{
+    width: 100px ;
+    border: solid 3px rgba(0, 0, 0, 0.185);
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+.features-desc{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.feature{
+    text-align: center;
+
+}
+
+.feature i{
+    color:rgb(209, 129, 64) ;
+    font-size: 50px;
+}
+
+.meal{
+    padding: 0px;
+    margin: -5px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.meal img{
+    width: 100%;
+    opacity: .6;
+    transform:scale(1.1)
+}
+
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+.work:first-child {
+    text-align: right;
+    padding-right: 5%;
+   
+   
+}
+
+.work:first-child img {
+    width: 60%;
+
+}
+.work:last-child{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+
+.step h4{
+    font-size: 1.2rem;
+    border: solid 2px rgb(209, 129, 64);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.btn-img{
+    margin-top: 30px;
+}
+
+
+
+footer{
+    background-color: #333;
+    color: #eee;
+    padding: 40px 0;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-nav, .social-nav{
+    list-style: none;
+}
+
+.social-nav{
+    text-align: right;
+}
+
+.footer-nav li, .social-nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li a, .social-nav li a{
+    text-decoration: none;
+    color: #eee;
+}
+.footer-nav li a:hover, .social-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
